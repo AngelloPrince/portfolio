@@ -15,7 +15,7 @@
 </head>
 <body>
 
-    <!-- header desing -->
+    <!-- header NAVBAR -->
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
 
@@ -30,7 +30,7 @@
         </nav>
     </header>
 
-    <!-- home section desing -->
+    <!-- home section -->
     <section class="home" id="home">
         <div class="home-content">
             <h3>Hola, Its me</h3>
@@ -51,7 +51,7 @@
         </div>
     </section>
 
-    <!-- about section desing -->
+    <!-- about section -->
     <section class="about" id="about">
         <div class="about-img">
             <img src="./imagen/angelloprince.png" alt="">
@@ -60,12 +60,12 @@
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
             <h3>Fronted Developer</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam exercitationem dignissimos ullam natus enim modi corrupti voluptates consectetur. Saepe vitae quidem dignissimos ab quod eaque fuga quisquam numquam tempore nam, modi dicta eligendi alias? Molestiae tempore reiciendis molestias. Distinctio repellat dicta vero cupiditate consequatur placeat illum.</p>
-            <a href="#" class="btn">Leer Mas</a>
+            <p>Soy Angello Giovanni Prince Clausner, tengo 26 años y me encanta hacer todo tipo de proyectos, siempre es bueno tener conocimiento de diferentes estilos web, creo desde sítios o páginas visuales hasta Ecommerce completos, utilizando FullStack Frontend y Backend, Tengo una proforma adecuada economicamente para que con facilidad puedas adquirir un servicio mío, me comprometo a dedicarle y darle el 100% a cualquier proyecto que tenga, me hago responsable de los errores que se vayan encontrando en el transcurso de cada código añadido, al finalizar mis proyectos siempre estaré dispuesto a corregir cualquier tipo de error, por eso solo necesito que confíes en mi, porque soy puntual, responsable, y dedicado a lo que hago. Por eso te invito a ver mis proyectos ya realizados.</p>
+            <a href="#portfolio" class="btn">Mis proyectos.</a>
         </div>
     </section>
 
-    <!-- services section desing -->
+    <!-- SKILLS -->
     <section class="services" id="services">
         <h2 class="heading">Mis <span>Skills</span></h2>
 
@@ -174,18 +174,18 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
-        <form enctype="text/plain" action="mailto:angeloprinceclausner@gmail.com" method="post">
+        <form action="https://formspree.io/f/xknazdbd" method="POST">
             <div class="input-box">
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Last name">
+                <input type="text" name="fullname" placeholder="Full Name" required>
+                <input type="text" name="country" placeholder="Country" required>
                 
             </div>
             <div class="input-box">
-                <input type="email" placeholder="Email Address" required>
-                <input type="number" placeholder="Mobile Number" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="number" name="mobile" placeholder="Mobile Number" required>
                 
             </div>
-            <textarea name="" id="" cols="30" rows="10" required></textarea>
+            <textarea name="text" id="" cols="30" rows="10" placeholder="Write Message" required></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
