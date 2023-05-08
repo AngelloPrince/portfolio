@@ -158,6 +158,8 @@ span {
 
 .btn:hover {
     box-shadow: none;
+    cursor: pointer;
+
 }
 
 .about{
@@ -228,9 +230,18 @@ span {
 }
 
 .services-box p{
+
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+
 
 /* PORTAFOLIO DE PROYECTOS */
 
