@@ -58,6 +58,7 @@ section {
     cursor: default;
 }
 
+
 .navbar a {
     font-size: 1.7rem;
     color: var(--text-color);
