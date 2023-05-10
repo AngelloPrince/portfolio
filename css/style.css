@@ -392,7 +392,7 @@ span {
 }
 
 .footer-iconTop a:hover {
-    box-shadow: 0 0 1rem var(--main-color);
+    box-shadow: 0 0 2rem var(--main-color);
 }
 
 .footer-iconTop a i {
