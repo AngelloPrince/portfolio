@@ -242,6 +242,9 @@ span {
     display: block;
 }
 
+.services-box{
+    transition: 3s ease;
+}
 
 
 /* PORTAFOLIO DE PROYECTOS */
