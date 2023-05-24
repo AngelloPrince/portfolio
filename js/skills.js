@@ -94,3 +94,23 @@ function toggleTextsql(){
 hideSql.classList.toggle('show');
 }
 
+/* SKILLS Sass*/
+let hideTextSass = document.getElementById('hideText_sass');
+let hideSass = document.getElementById('hideSass');
+
+hideText_sass.addEventListener('click', toggleTextsass);
+
+function toggleTextsass(){
+hideSass.classList.toggle('show');
+}
+
+/* SKILLS Python*/
+let hideTextPy = document.getElementById('hideText_py');
+let hidePy = document.getElementById('hidePy');
+
+hideText_py.addEventListener('click', toggleTextpy);
+
+function toggleTextpy(){
+hidePy.classList.toggle('show');
+}
+
