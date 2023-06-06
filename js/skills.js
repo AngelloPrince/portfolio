@@ -41,49 +41,6 @@ function toggleTextreact(){
 hideReact.classList.toggle('show');
 }
 
-
-/* SKILLS BOOTSTRAP*/
-let hideTextBs = document.getElementById('hideText_bs');
-let hideBs = document.getElementById('hideBs');
-
-hideText_bs.addEventListener('click', toggleTextbs);
-
-function toggleTextbs(){
-hideBs.classList.toggle('show');
-}
-
-
-/* SKILLS Github*/
-let hideTextGh = document.getElementById('hideText_gh');
-let hideGh = document.getElementById('hideGh');
-
-hideText_gh.addEventListener('click', toggleTextgh);
-
-function toggleTextgh(){
-hideGh.classList.toggle('show');
-}
-
-
-/* SKILLS GIT*/
-let hideTextGit = document.getElementById('hideText_git');
-let hideGit = document.getElementById('hideGit');
-
-hideText_git.addEventListener('click', toggleTextgit);
-
-function toggleTextgit(){
-hideGit.classList.toggle('show');
-}
-
-/* SKILLS WORDPRESS*/
-let hideTextWp = document.getElementById('hideText_wp');
-let hideWp = document.getElementById('hideWp');
-
-hideText_wp.addEventListener('click', toggleTextwp);
-
-function toggleTextwp(){
-hideWp.classList.toggle('show');
-}
-
 /* SKILLS SQL*/
 let hideTextSql = document.getElementById('hideText_sql');
 let hideSql = document.getElementById('hideSql');
@@ -114,3 +71,68 @@ function toggleTextpy(){
 hidePy.classList.toggle('show');
 }
 
+
+/*==========================TOOLS EFECT =====================*/
+  /*==============INFO SKILLS DESPLEGABLE=============*/ 
+
+/* TOOLS VS CODE*/
+let hideTextVs = document.getElementById('hideText_vs');
+let hideVs = document.getElementById('hideVs');
+
+hideText_vs.addEventListener('click', toggleTextvs);
+
+function toggleTextvs(){
+hideVs.classList.toggle('show');
+}
+
+/* TOOLS BOOTSTRAP*/
+let hideTextBs = document.getElementById('hideText_bs');
+let hideBs = document.getElementById('hideBs');
+
+hideText_bs.addEventListener('click', toggleTextbs);
+
+function toggleTextbs(){
+hideBs.classList.toggle('show');
+}
+
+
+/* TOOLS Github*/
+let hideTextGh = document.getElementById('hideText_gh');
+let hideGh = document.getElementById('hideGh');
+
+hideText_gh.addEventListener('click', toggleTextgh);
+
+function toggleTextgh(){
+hideGh.classList.toggle('show');
+}
+
+
+/* TOOLS GIT*/
+let hideTextGit = document.getElementById('hideText_git');
+let hideGit = document.getElementById('hideGit');
+
+hideText_git.addEventListener('click', toggleTextgit);
+
+function toggleTextgit(){
+hideGit.classList.toggle('show');
+}
+
+/* TOOLS WORDPRESS*/
+let hideTextWp = document.getElementById('hideText_wp');
+let hideWp = document.getElementById('hideWp');
+
+hideText_wp.addEventListener('click', toggleTextwp);
+
+function toggleTextwp(){
+hideWp.classList.toggle('show');
+}
+
+/* TOOLS SHOPIFY*/
+let hideTextSp = document.getElementById('hideText_sp');
+let hideSp = document.getElementById('hideSp');
+
+hideText_sp.addEventListener('click', toggleTextsp);
+
+function toggleTextsp(){
+hideSp.classList.toggle('show');
+}
